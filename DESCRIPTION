@@ -1,9 +1,9 @@
 Package: studentsuccess
-Title: What the Package Does (One Line, Title Case)
+Title: Student Academic Performance Tracking Tool
 Version: 0.0.0.9000
 Authors@R: 
     person("Sydney", "Hardin", , "snhardin@usf.edu", role = c("aut", "cre"))
-Description: What the package does ( This is an R package that help students of all grades and graduate status track their academic performance through GPA calculations,tracking attendance, how long they study, and academic risk alerrts).
+Description: What the package does (This package gives tools that can evaluate student's academic performace by calculating GPA, tracking attendance, the assessment of study habits, academic risk alert, and lastly reporting sudent fuctions.)
 License: MIT + file LICENSE
 Config/roxygen2/version: 8.1.1
 Encoding: UTF-8
