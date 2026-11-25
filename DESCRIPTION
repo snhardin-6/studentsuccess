@@ -2,8 +2,8 @@ Package: studentsuccess
 Title: What the Package Does (One Line, Title Case)
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+    person("Sydney", "Hardin", , "snhardin@usf.edu", role = c("aut", "cre"))
+Description: What the package does ( This is an R package that help students of all grades and graduate status track their academic performance through GPA calculations,tracking attendance, how long they study, and academic risk alerrts).
 License: MIT + file LICENSE
 Config/roxygen2/version: 8.1.1
 Encoding: UTF-8

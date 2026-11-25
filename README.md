@@ -4,15 +4,19 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of studentsuccess is to ...
+This is an R package that help students of all grades and graduate status track their academic performance through GPA calculations,tracking attendance, how long they study, and academic risk alerrts
 
 ## Installation
 
-You can install the development version of studentsuccess like so:
+Install the package directly from GitHub:
 
-``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
-```
+library(devtools)
+
+install_github("snhardin-6/studentsuccess")
+
+# Load this package:
+
+library(studentsuccess)
 
 ## Example
 
