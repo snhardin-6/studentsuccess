@@ -18,12 +18,44 @@ install_github("snhardin-6/studentsuccess")
 
 library(studentsuccess)
 
-## Example
 
-This is a basic example which shows you how to solve a common problem:
+## Functions
+#Calculate GPA
 
-``` r
+calculate_gpa(c(3.5, 4.0, 3.7))
+
+#Calculate Attendance Percentage
+
+attendance_score(18, 20)
+
+#Assess Study Hours
+
+study_hours_score(2)
+
+#Academic Risk Alert
+
+risk_alert(2.5)
+
+#Student Report (S3 Class)
+
+student_report("Joe", 3.8)
+
+## Example Workflow
+
 library(studentsuccess)
-## basic example code
-```
 
+gpa <- calculate_gpa(c(3.5, 4.0, 3.7))
+
+attendance <- attendance_score(18, 20)
+
+study_hours_score(12)
+
+risk_alert(gpa)
+
+student_report("Joe", gpa)
+
+##Purpose
+This package primary use was made to help students be able to quickly evaluate key indicators of their academic performance and it finds the areas in which they could be some improvements.
+
+## Al use Statement
+I used Microsoft Copilot to brainstorm ideas for this project and give me clarity on the assignment and what it entails. All of the code was made, reviewed, tested, and modified by the author.
